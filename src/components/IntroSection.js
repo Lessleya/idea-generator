@@ -1,6 +1,6 @@
 import React from 'react'
-import { Box, Image, Text, Spacer, Stack, Button} from '@chakra-ui/react'
-import Logo from '../assets/logo.avif'
+import { Box, Center, Image, Text, Spacer, Stack, Button} from '@chakra-ui/react'
+import Logo from '../assets/logo.png'
 import { MdOutlineAppShortcut } from "react-icons/md";
 import { TbUserScan } from "react-icons/tb";
 import { MdOutlineReportProblem } from "react-icons/md";
@@ -10,12 +10,18 @@ import { Link } from 'react-scroll';
 
 export default function IntroSection({idea, generateRandomIdea}) {
   return (
-   <Box  h={{md:'90vh', base:'70vh'}} m={{base:'8vw', md:'5vw'}}>
-    <Box display='flex' alignItems='center' textAlign={{base:'center', md:'left'}}  >
-    <Image src={Logo} boxSize={{md:"4vw", base:'10vw'}} />
-    <Text fontSize='3xl' fontFamily='Merriweather'>idea<strong style={{color: '#886BCB'}}>Generator</strong></Text>
+   <Box  h={{md:'90vh', base:'70vh'}} m={{base:'0', md:'5vw'}}>
+
+    
+
+    <Box display='flex' gap='1vw' justifyContent={{base:'center', md:'left'}} alignItems='center' textAlign={{base:'center', md:'left'}} bgColor={{base: 'yellow.100', md:'white'}} p={{base:'3vh', md:'0'}}
+ >
+    <Image src={Logo} boxSize={{md:"2vw", base:'4vw'}} />
+    <Text as='b' fontSize={{base:'md', md:'3xl'}} fontFamily='Merriweather'>idea<strong style={{color: '#886BCB'}}>Generator</strong></Text>
+
     </Box>
     <Spacer boxSize="8vh"/>
+    <Box mx={{base:'5vw', md:'0'}}>
     <Stack>
 
     <Text textAlign={{base:'center', md:'left'}} fontSize={{md:'5xl', base: '3xl'}} as="b">From Random Sparks</Text>
@@ -29,18 +35,18 @@ export default function IntroSection({idea, generateRandomIdea}) {
     <Box display='flex' justifyContent="space-between" alignItems="center">
         
         <Stack  alignItems='center' textAlign='center' >
-        <MdOutlineAppShortcut color='886BCB'  size="3vw"/>
+        <MdOutlineAppShortcut color='886BCB'  size='25%'/>
         <Text as='b' >Type of App</Text>
         </Stack>
         <FaPlus color='orange' />
         <Stack alignItems='center'>
-        <TbUserScan  color='886BCB' size="3vw"/>
+        <TbUserScan  color='886BCB' size='25%'/>
         <Text as='b' >Target User</Text>
         </Stack>
         <FaPlus color='orange'  />
         <Stack alignItems='center'>
-        <MdOutlineReportProblem color='886BCB' size="3vw" />
-        <Text as='b' >Problem to Solve</Text>
+        <MdOutlineReportProblem color='886BCB' size='25%' />
+        <Text as='b' >Problem</Text>
         </Stack>
     </Box>
     <Spacer boxSize="7vh"/>
@@ -51,6 +57,7 @@ export default function IntroSection({idea, generateRandomIdea}) {
     </Link>
 
 
+    </Box>
     </Box>
 
  
