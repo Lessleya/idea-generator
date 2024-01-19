@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Center, Image, Text, Spacer, Stack, Button} from '@chakra-ui/react'
+import { Box, Image, Text, Spacer, Stack, Button} from '@chakra-ui/react'
 import Logo from '../assets/logo.png'
 import { MdOutlineAppShortcut } from "react-icons/md";
 import { TbUserScan } from "react-icons/tb";
