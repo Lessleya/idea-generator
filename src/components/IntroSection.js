@@ -5,6 +5,7 @@ import { MdOutlineAppShortcut } from "react-icons/md";
 import { TbUserScan } from "react-icons/tb";
 import { MdOutlineReportProblem } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 
 export default function IntroSection({idea, generateRandomIdea}) {
@@ -45,8 +46,9 @@ export default function IntroSection({idea, generateRandomIdea}) {
     <Spacer boxSize="7vh"/>
 
     <Box textAlign={{base:'center', md:'left'}}>
+    <Link to='generateIdea' smooth={true} offset={-130} duration={500}>
     <Button onClick={generateRandomIdea} colorScheme='yellow' fontSize={{md:"2xl", base:'xl'}} padding={{md:"2vw", base:"5vw"}}>Generate Idea</Button>
-
+    </Link>
 
 
     </Box>

@@ -12,7 +12,7 @@ export default function GeneratorCard({idea, generateRandomIdea}) {
 
 
   return (
-    <Box m={{md:'2vw', base:'5vw'}} textAlign='center' rounded="3xl" bgColor={ idea.type ? "yellow.200" : "purple.200"} h= '90vh' dropShadow='lg'>   
+    <Box  name="generateIdea" m={{md:'2vw', base:'5vw'}} textAlign='center' rounded="3xl" bgColor={ idea.type ? "yellow.200" : "purple.200"} h= '90vh' dropShadow='lg'>   
       <Center h="20vh">
         <Image marginTop="8vh" src={idea.type ? onLight : offLight} rounded="100%" boxSize="15vh" />
       </Center>
