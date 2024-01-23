@@ -11,7 +11,7 @@ function App() {
     <ChakraProvider>
 
     <Grid 
-    templateColumns={{md:'repeat(2, 1fr)', base:'repeat(1, 1fr)' }} gap={{base: '3vw', md: '5vw'}}
+    templateColumns={{md:'repeat(2, 1fr)', base:'repeat(1, 1fr)' }} gap={{base: '15vh', md: '5vw'}}
    
     
     
