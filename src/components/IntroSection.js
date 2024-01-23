@@ -1,14 +1,13 @@
 import React from 'react'
-import { Box, Image, Text, Spacer, Stack, Button} from '@chakra-ui/react'
+import { Box, Image, Text, Spacer, Stack} from '@chakra-ui/react'
 import Logo from '../assets/logo.png'
 import { MdOutlineAppShortcut } from "react-icons/md";
 import { TbUserScan } from "react-icons/tb";
 import { MdOutlineReportProblem } from "react-icons/md";
 import { FaPlus } from "react-icons/fa";
-import { Link } from 'react-scroll';
 
 
-export default function IntroSection({idea, generateRandomIdea}) {
+export default function IntroSection() {
   return (
    <Box  h={{md:'90vh', base:'70vh'}} m={{base:'0', md:'5vw'}}>
 
@@ -17,20 +16,20 @@ export default function IntroSection({idea, generateRandomIdea}) {
     <Box display='flex' gap='1vw' justifyContent={{base:'center', md:'left'}} alignItems='center' textAlign={{base:'center', md:'left'}} bgColor={{base: 'yellow.100', md:'white'}} p={{base:'3vh', md:'0'}}
  >
     <Image src={Logo} boxSize={{md:"2vw", base:'4vw'}} />
-    <Text as='b' fontSize={{base:'md', md:'3xl'}} fontFamily='Merriweather'>idea<strong style={{color: '#886BCB'}}>Generator</strong></Text>
+    <Text as='b' fontSize={{base:'md', md:'3xl'}} fontFamily='Merriweather'>AppIdea<strong style={{color: '#886BCB'}}>Generator</strong></Text>
 
     </Box>
     <Spacer boxSize="8vh"/>
     <Box mx={{base:'5vw', md:'0'}}>
     <Stack>
 
-    <Text textAlign={{base:'center', md:'left'}} fontSize={{md:'5xl', base: '3xl'}} as="b">From Random Sparks</Text>
-    <Text textAlign={{base:'center', md:'left'}}  fontSize={{md:'5xl', base: '3xl'}} as="b">To Brilliant Projects!✨</Text>
+    <Text textAlign={{base:'center', md:'left'}} fontSize={{md:'5xl', base: '3xl'}} as="b">Let's </Text>
+    <Text textAlign={{base:'center', md:'left'}}  fontSize={{md:'5xl', base: '3xl'}} as="b">Get Creative!✨</Text>
 
     </Stack>
     
     <Spacer boxSize="3vh"/>
-    <Text textAlign={{base:'center', md:'left'}}>Say hello to endless coding fun! 'Idea Generator' brings you quirky and cool project prompts that'll keep your developer skills sharp and your creativity flowing. Dive in and see what you'll create today!</Text>
+    <Text  fontSize='xl' textAlign={{base:'center', md:'left'}}> Our Idea Generator gives you three random things often in combinations that might initially seem unconventional:  </Text>
     <Spacer boxSize="7vh"/>
     <Box display='flex' justifyContent="space-between" alignItems="center">
         
@@ -51,13 +50,9 @@ export default function IntroSection({idea, generateRandomIdea}) {
     </Box>
     <Spacer boxSize="7vh"/>
 
-    <Box textAlign={{base:'center', md:'left'}}>
-    <Link to='generateIdea' smooth={true} offset={-130} duration={500}>
-    <Button onClick={generateRandomIdea} colorScheme='yellow' fontSize={{md:"2xl", base:'xl'}} padding={{md:"2vw", base:"5vw"}}>Generate Idea</Button>
-    </Link>
+    <Text fontSize="xl" textAlign={{base:'center', md:'left'}}> <strong>Your mission?</strong> Combine these elements to design a web app. It's a fun way to boost your creativity and coding skills. Ready to see what you can create? Hit 'Generate' and start! </Text>
 
-
-    </Box>
+ 
     </Box>
 
  
