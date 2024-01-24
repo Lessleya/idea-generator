@@ -9,7 +9,17 @@
         "Music Streaming App",
         "Healthy Eating App",
         "News App",
-        "Language Practice App"
+        "Language Practice App",
+        "Pet Care Management App",
+        "Travel Adventure Planner App",
+        "Digital Journaling App",
+        "Home Improvement Tool App",
+        "Local Community Engagement App",
+        "Virtual Reality Experience App",
+        "Recipe and Cooking Guide App",
+        "Sustainable Living Guide App",
+        "Artistic Creativity Booster App",
+        "Public Speaking Practice App"
     ],
     "Target_User": [
         "School and College Learners",
@@ -21,7 +31,17 @@
         "Music Enthusiasts",
         "Foodies",
         "Tech Fans",
-        "Language Students"
+        "Language Students",
+        "Pet Owners",
+        "Adventure Seekers",
+        "Journal Writers",
+        "DIY Enthusiasts",
+        "Local Community Members",
+        "VR Enthusiasts",
+        "Home Cooks",
+        "Eco-Friendly Users",
+        "Budding Artists",
+        "Aspiring Public Speakers"
     ],
     "Problem_to_Solve": [
         "Organizing a Busy Schedule",
@@ -33,6 +53,17 @@
         "Discovering New Music Styles",
         "Better Online Learning Experience",
         "Securing Personal Information",
-        "Teaching Green Living Habits"
+        "Teaching Green Living Habits",
+        "Simplifying Pet Care Tasks",
+        "Planning Unique Travel Experiences",
+        "Encouraging Regular Journaling",
+        "Guiding Home Improvement Projects",
+        "Fostering Local Community Involvement",
+        "Creating Immersive VR Content",
+        "Exploring New Culinary Skills",
+        "Promoting Sustainable Lifestyle Choices",
+        "Enhancing Artistic Skills",
+        "Improving Public Speaking Confidence"
     ]
 }
+
