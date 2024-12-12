@@ -1,3 +1,10 @@
+# App Idea Generator
+
+<img width="1690" alt="Screenshot 2024-12-11 at 10 16 27 PM" src="https://github.com/user-attachments/assets/857ff03a-1a42-4b7b-a214-e38fd349eac3" />
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
